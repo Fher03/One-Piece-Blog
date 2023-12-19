@@ -52,7 +52,7 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 2rem;
+    gap: 5rem;
 }
 
 .menu > li {
@@ -70,3 +70,29 @@ html {
     color: var(--primary-color);
 }
 
+/* -------------------------------------------------------------------------- */
+/*                                    HERO                                    */
+/* -------------------------------------------------------------------------- */
+
+.hero {
+    height: 70rem;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../img/hero.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-content {
+    display: grid;
+    place-items: center;
+    height: 70rem;
+    gap: 4rem;
+}
+
+.hero-title > h1 {
+    color: white;
+    font-size: 7rem;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: .2rem;
+}
